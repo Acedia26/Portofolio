@@ -3,9 +3,177 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Portofolio | Fajli Rotama</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/Style.css" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav>
+      <div class="wrapper">
+          <div class="logo"><a href="">Fajli</a></div>
+          <div class="menu">
+          <ul>
+            <li><a href="#home"class="tbl-biru">Home</a></li>
+            <li><a href="#About"class="tbl-biru">About</a></li>
+            <li><a href="#portofolio"class="tbl-biru">Portfolio</a></li>
+            <li><a href="#Blog"class="tbl-biru">blogs</a></li>
+            <li><a href="#team"class="tbl-biru">Team</a></li>
+            <li><a href="#contact"class="tbl-biru">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- untuk home -->
+    <section id="home">
+      <img src="Image/5509862.jpg" class="img-fluid" alt="Galaxy">
+      <div class="glass-effect">
+        <h1>Welcome To My First website</h1>
+      </div>
+    </section>
+
+     <!-- untuk About -->
+     <section id="About">
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Image/Me.png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">About Me</h5>
+              <p class="card-text">A fully qualified Accountant who has a number of years experience in the fields of
+                financial management reporting, taxation and cash flow. Maxine has the ability and
+                willingness to take on financial leadership and is certain to be a key member of any
+                financial team that she joins. She is ambitious by nature and keen to get to the top of her
+                profession. One of her greatest strengths is her ability to prioritize workloads to meet
+                challenging deadlines. On a personal level she has the ability to build relationships in a
+                multi-cultural environment and across various offices. Right now she wants to join a
+                company who are keen to add an intelligent and enthusiastic individual to their finance
+                department. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <!-- untuk Portofolio -->
+     <section id="portofolio">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <p class="deskripsi">Portofolio</p>
+            <h2 class="deskripsi">Berikut Contoh Portofolio Saya </h2>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Image/word.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Image/Excel.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Image/MRM.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div></section>
+     s
+      <!-- untuk blog -->
+      <section id="Blog">
+        <div class="tengah">
+          <div class="kolom">
+            <p class="deskripsi">Blog</p>
+            <h2>This Is Another My Blog</h2>
+            <p>berikut adalah beberapa project website dan blog saya</p>
+          </div>
+
+          <div class="partner-list">
+            <div class="kartu-partner">
+              <img src="Image/1014396.jpg" />
+            </div>
+            <div class="kartu-partner">
+              <img src="Image/1014434.jpg" />
+            </div>
+            <div class="kartu-partner">
+              <img src="Image/1032418.jpg" />
+            </div>
+            <div class="kartu-partner">
+              <img src="Image/Tanjiro.jpg" />
+            </div>
+            <div class="kartu-partner">
+              <img src="Image/Zenitsu 2.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+      <!-- untuk team -->
+      <section id="team">
+        <div class="tengah">
+          <div class="kolom">
+            <p class="deskripsi">Our Beloved Teams</p>
+            <h2>Team</h2>
+            <p>Inilah Team Kami</p>
+          </div>
+
+          <div class="tutor-list">
+            <div class="kartu-tutor">
+              <img src="Image/Me.png" />
+              <p>Me</p>
+            </div>
+            <div class="kartu-tutor">
+              <img src="Image/Me.png" />
+              <p>Me</p>
+            </div>
+            <div class="kartu-tutor">
+              <img src="Image/Me.png" />
+              <p>And</p>
+            </div>
+            <div class="kartu-tutor">
+              <img src="Image/Me.png" />
+              <p>Me</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!-- untuk contact -->
+      <div id="contact">
+      <div class="wrapper">
+        <div class="footer">
+          <div class="footer-section">
+            <h3>Fajli Rotama</h3>
+            <p>Belajar fundamental web developer lewat haktiv8</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contact</h3>
+            <p>Jl. H Agus Salim</p>
+            <p>Kode Pos: 57611</p>
+          </div>
+          <div class="footer-section">
+            <h3>Social Media</h3>
+            <p><b>Instagram: </b>Ahmad Imad</p>
+            <p><b>twitter: </b>Fajli Rotama</p>
+            <p><b>youtube: </b>Fajli Rotama</p>
+            <p><b>facebook: </b>Fajli Rotama</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <div class="wrapper">&copy; 2022. <b>Fajli Rotama</b> Made With Dizziness.</div>
+    </div>
   </body>
 </html>
