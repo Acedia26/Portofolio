@@ -1,3 +1,8 @@
+var name = ("masukan nama");
+alert(nama)
+
+var tes =
+
 var tombolMenu = document.getElementsByClassName("tombol-menu")[0];
 var menu = document.getElementsByClassName("menu")[0];
 
